@@ -12,13 +12,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //1つ目のhumanインスタンスの作成
-        val human=Human("tosizou",40,"野球")
+        val human=Human("tosizou",40,"ドラミング")
 
         human.say()
         human.think()
 
         //2つ目のhumanインスタンスの作成
-        val human2=Human("tosiko",80,"サッカー")
+        val human2=Human("tosiko",80,"マーキング")
 
         human2.say()
         human2.think()
